@@ -13,7 +13,7 @@ ul{
 li{
     list-style: none;
     border: 1px solid black;
-    padding: 80px;
+    padding: 30px 0px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -24,4 +24,18 @@ li{
 .visible{
     transform: translate(0, 0);
     transition: all 1s;
+}
+.sub_menu{
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+
+
+.sub_visible{
+    display: block;
+    margin-top: 20px;
+}
+.sub_novisible{
+    display: none;
 }
