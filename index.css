@@ -9,12 +9,19 @@ body{
 ul{
     padding: 0;
     margin: 0;
-    display: none;
 }
 li{
     list-style: none;
     border: 1px solid black;
-    padding: 30px;
+    padding: 80px;
     width: 100%;
     box-sizing: border-box;
+}
+.oculto{
+    transform: translate(0, -110%);
+    transition: all 1s;
+}
+.visible{
+    transform: translate(0, 0);
+    transition: all 1s;
 }
